@@ -48,8 +48,7 @@ def ISRC(driver):
 #Self explanatorry
 def main():
  
-    driver = webdriver.Firefox(executable_path=GeckoDriverManager().install())
-    driver.get('https://www.believebackstage.com/catalog/manager')
+    driver = webdriver.Firefox(executable_path=GeckoDriverManager().install()
  
     return driver
  
